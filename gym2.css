@@ -1,0 +1,110 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	box-sizing: border-box;
+
+}
+body{
+	 padding-left: 30px;
+	 
+	 
+
+}
+h2{
+	
+	color:black;
+	padding: 3%;
+	
+}
+
+html{
+	background: linear-gradient(gray,wheat,white,grey); 
+}
+tr{
+	background-color: grey;
+}
+.didi{
+	padding-left: 1100px;
+}
+table{
+
+ padding-left: 100px;
+
+}
+table ,td, th {
+	padding: 20px;
+	border: 1px solid lightgray;
+}
+input{
+	background-color: green;
+	border-radius: 25%;
+
+}
+.image{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+.image img {
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	transition: bottom 1s left 1s;
+}
+.image:hover .shape{
+	bottom: 40px;
+}
+.image:hover .{
+	left: 45%;
+}
+.left{
+	width: 60px;
+	height: 70px;
+	padding-left: 990px;
+	margin-top: -80px;
+}
+.left img{
+	width: 250px;
+	height: 150px;
+}
+.left div span {
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+
+}
+.left div {
+	text-align: center;
+	font-size: 15px;
+	
+	color: black;
+	margin-top: -10px;
+	margin-left: 89px;
+} 
+th{
+	background-color: blue;
+	color: white;
+}
+tr:nth-child(odd){
+	background-color: lightblue;
+}
+tr:nth-child(odd):hover
+{
+	background-color: dodgerblue;
+	transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}
+tr:nth-child(even){
+	background-color: #ededed;
+}
+tr:nth-child(even):hover
+{
+	background-color: lightgray;
+	transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}

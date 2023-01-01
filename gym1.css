@@ -1,0 +1,126 @@
+
+div{
+font-size: 100%;
+	padding-top: 4%;
+height: 5%;
+width: 100%;
+margin: 10px;
+	border-radius: 9%;
+	text-align: center;
+	display-flex: column;
+	 color: white;
+	justify-content: center;
+	}
+
+
+
+}
+div.2{
+	padding-top: 10px;
+}
+table{
+
+}
+label{
+	border-radius: 5%;
+}
+.form-group{
+
+	height: -1100%;
+	font-size: 1em;
+	border-radius: 56%;
+	padding-top: -50%;
+	padding-bottom: -50%;
+	width: -100px;
+
+	
+}
+
+body{
+	/*background-image:url(douz.jpg) ;*/
+	height: 100vh;
+	background: linear-gradient(grey,black);
+
+}
+img{
+	margin-top: -50px;
+	
+	color: white;
+}
+.doummar{
+	padding-top: -50px;
+	color: white;
+	padding-bottom: -10px;
+	margin: 10px;
+	margin-left: -290px;
+
+}
+.dodo{ 
+	padding-top: -580px;
+	margin-top: -100px;
+	margin-left: 50px;
+	color: white;
+	height: 10%;
+	
+}
+.ahmad{
+	padding-top: -5px;
+	color: white;
+	padding-bottom: 10px;
+}
+.didi{
+	 color: black;
+	 	 border-radius: 55%;
+	margin-top: -300px;
+	 width: 100%;
+	 margin-left: -100px;
+
+
+}
+div .didi input{
+	background-color: grey;
+}
+.form-group{
+	color: white;
+	border-radius: 50%;
+	margin-left: -290px;
+
+}
+#balle{
+	width: 10px;
+	height: 10px;
+	background: green;
+	border-radius: 10px;
+	border: black 2px solid;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 240px;
+	display: block;
+}
+form-group{
+	border-radius: 50%;
+}
+
+div .form-group{
+	border-radius: 50%;
+}
+.my-form{
+	border-radius: 50%;
+}
+input{
+	color: yellow;
+}
+.form-group2{
+	margin-left: 50px;
+	margin-top: -70px;
+}
+.dam{
+	margin-left: 450px;
+}
+.dam .dm{
+	margin-left: 100px;
+}
+.img{
+	margin-left: 290px;
+	margin-top: -50px;
+}

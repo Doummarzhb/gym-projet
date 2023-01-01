@@ -1,0 +1,279 @@
+/*body{
+	min-height: 100vh;
+	background: #000;
+
+}
+section{
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	min-height: 100vh;
+
+}
+.banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: url(bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: -3;
+	opacity: 0.7;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+
+}
+header .logo{
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+
+}
+#menu-btn{
+	position: fixed;
+	top: 20px;
+	left: 30px;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	font-size: 30px;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	z-index: 1000;
+}
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ffc20a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 5s ease-out ;
+	clip-path: circle(0% a 95.3% 8.5%);
+}
+.nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.nav ul li{
+	list-style: none;
+}
+.nav ul li a{
+	display: inline-block;
+	color: #000;
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 300;
+
+}
+.nav ul li a ::before{
+	position: absolute;
+	content: attr(data-text);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 15vw;
+	color: rgba(0, 0, 0, 0,1);
+pointer-events: none;
+font-weight: 700;
+opacity: 0;
+z-index: -1;
+}
+.nav ul li a:hover: :before{
+	opacity: 1;
+	transition: 5s ease-out;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #30373f;
+
+
+}
+.container{
+	padding: 30px;
+	background: #30373f;
+	border-radius: 15px;
+	box-shadow: 25px  25px 75px rgba(0,0,0,0.25),
+	10px 10px 70px rgba(0,0,0,0.25),
+	inset 5px 5px 10px rgba(0,0,0,0.5),
+	inset 5px 5px 10px rgba(255,255,255,0.2),
+	inset -5px -5px 15px rgba(0,0,0,0.75);
+    
+
+}
+.container h2{
+	color: #fff;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-weight: 500;
+	border-bottom: 2px solid #fff;
+
+}
+.container ul {
+	position: relative;
+
+}
+.container ul li {
+	position: relative;
+	list-style: none;
+	display: table;
+	margin: 20px 0;
+	padding-left: 34px;
+	padding-right: 5px;
+
+
+}
+.container ul li ::before{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 34px;
+	height: 34px;
+	background: #03a9f4;
+	box-shadow: 5px 5px 7px rgba(0,0,0,0.25),
+	insert: 2px 2px 5px rgba(255,255,255,0.25),
+	insert: -3px -3px 5px rgba(0,0,0,0.5);
+	border-radius: 34px;
+	transition-delay: 0.5s , 0s;
+	transition: background 0.5s , width 0.5s;
+	box-sizing:border-box ;
+}
+.container ul li:hover::before{ 
+	width: 100%;
+	transition-delay:0s, 0.5s ;
+
+  
+}
+.container ul li::after{
+	position: absolute;
+	content: '';
+	top: 13px;
+	left: 45px;
+	width: 9px;
+	height: 6px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transition: 0.5s;
+	transform:rolate(45deg);
+   transition-delay: 0s;
+}
+.container ul li :hover::after{
+ left: 24px;
+ transition-delay: 0.5s;
+ transform:rolate(45deg)scale(1.5);
+}
+.container ul li p {
+	position: relative;
+	padding: 5px 20px  ;
+	color: #fff;
+
+}
+.left img{
+	width: 90px;
+	height: 80px;
+	margin-left: -450px;
+	padding-top: 0px;
+	margin-top: -150px;
+}
+.left div span {
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+.left div {
+	text-align: center;
+	font-size: 15px;
+	
+	color: white;
+	margin-top: 10px;
+
+}
+/*
+.damar{
+	width: -10px;
+	padding: 200px;
+	padding-top: -800px;
+	margin-left: 400px;
+}
+p{
+	padding: 10px;
+	margin-left: 10px;
+}
+*/
+img{
+	width:400px;
+    height: 300px;
+    margin-top: -800px;
+    margin-left:50px;
+
+
+}
+.image1{
+	padding: 50px;
+	margin-top: -190px;
+	margin-left: 50px;
+}
+.ema{
+	margin-left: -420px;
+	margin-top: -100px;
+}
+.emaa{
+	margin-top: -0px;
+	margin-left: -580px;
+}
+video{
+	margin-top: -350px;
+	padding-left:0;
+	margin-left:-510px;
+
+}
+a{
+	color: white;
+}
+#balle{ 
+ width:25px; 
+height: 25px; 
+ background:green; 
+ border:black 2px solid; 
+ border-radius:10px; 
+ position: absolute; 
+ margin-left:350px; 
+ margin-top:140px;
+}

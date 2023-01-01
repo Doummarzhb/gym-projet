@@ -1,0 +1,88 @@
+<DOCtype html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="gym1.css">
+	</head>
+	<body>
+		<form>
+   
+<div class="form-group">
+	<p><br>
+<label for="mdp1">Nom</label> :
+            <input type="text" name="nm" id="nm" required>
+        </p>
+
+		<p>
+
+            <label for="mdp1">Prenom</label> :
+            <input type="text" name="pr" id="pr" required>
+        </p>
+    </div>
+    <div class="form-group2">
+        <p>
+        	 <label for="mdp1">Telephone</label> :
+            <input type="text" name="pr" id="pr" required>
+        </p>
+    
+   
+        <p>
+            <label for="nationalite">Choisie:</label>
+            <select name="nationalite" id="nationalite">
+                <option value="FR" selected>IRON</option>
+                <option value="BE">KARATE</option>
+               
+            </select>
+        </p>
+    </div>
+    </div>
+		<p>
+
+ <div class="doummar">
+ <label> Time       </label>
+<input type ="time" name =" time" placeholder="Saisir votre time">
+</div>
+
+<br>
+<div class="dodo">
+<label>Type</label>
+<select name=" type" multiple>
+	<option value="iron"> CHEST move</option>
+	<option value="karate"> LEGS</option>
+	<option value="karate"> SHOULDER</option>
+	<option value="karate"> NOON</option>
+</div>
+</select>
+</div>
+<BR>
+<br>
+<div class="img">
+ <img src="dod.png">
+</div>
+<div id ="balle "></div>
+<div id ="script" > ..</div>
+<div class ="didi">
+	<input type ="submit" name = "Join" value ="Join"></div>
+ </select>
+
+ <script type="jquery.js">
+ </script>
+ <script>
+ 	$(function (){
+ 		function bis (){
+ 			$('#balle').animate({left:'+=590'} ,'slow')
+ 			   .animate ({top:'+=400'} ,'slow')
+ 			   .animate({left:'-=590'} , 'slow')
+ 			    .animate ({top:'-=400'} , 'slow' , bis );
+ 		}      
+ 		bis();      
+ 	})
+
+ </script>
+<script id="form.js"></script>
+ 
+</form>
+<p id="infoMdp"></p>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #102626;
+
+}
+.container{
+	position: relative;
+	width: 620%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-reflect: bellow 1px linear-gradient(#0001,#0004);
+
+}
+.container .loader {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	
+	border-radius:50% ;
+	background-color: #0d2323;
+	animation: animate 4s linear infinite;
+
+}
+@keyframes animate
+  {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.container .loader::before{ 
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background:linear-gradient(to top ,transparent,rgba(0,255, 249, 0.4)) ;
+	background-size: 100px 100px ;
+	background-repeat: no-repeat;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+
+
+}
+.container .loader::after{ 
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translatex(-50%);	width: 20%;
+	height: 20%;
+	background:#00fff9;
+	border-radius: 50%;
+	z-index: 10;
+	box-shadow: 0 0 10px #00fff9,
+ 0 0 20px #00fff9,
+  0 0 30px #00fff9,
+   0 0 40px #00fff9,
+    0 0 50px #00fff9,
+     0 0 60px #00fff9,
+      0 0 70px #00fff9,
+       0 0 80px #00fff9,
+        0 0 90px #00fff9,
+         0 0 100px #00fff9;
+
+
+}
+.container .loader span{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background: #102626;
+	border-radius: 50% ;
+}
+*/
+/*
+div .ahmad{
+	width: -100px;
+	margin-top: -590px;
+	*/
+/*
+.viv1{
+	width: 5px;
+	height: 30px;
+}
+.video{
+	width: 0px;
+	height: 0px;
+	padding: 40px;
+	margin: 40px;
+}
+.video2{
+	width: -2px;
+	height: -1px;
+	padding: 40px;
+	margin: 20px;
+}
+.diz{
+	width: 0px;
+	padding: 1px;
+	height: 2px;
+	justify-content: center;
+	top: 0;
+	left: 0;
+}
+*/
+.viv1{
+	padding: 10px;
+	margin: -900px;
+}
+.viv2{
+	padding: -20px;
+}
+.video{
+	padding: -50px;
+}
+.video2{
+	padding-left: 70px;
+}
+.hob{
+	margin-left: -20px;
+	padding:-80px;
+	width: 200px;
+	
+}
+.bla{
+	justify-content: center;
+	
+}
+.left img{
+	width: 70px;
+	height: 50px;
+	padding-top: -50px;
+}
+header{
+	width: 10px;
+	padding-top: -10px;
+	margin-top: -550px;
+	margin-left: 10px;
+}
+.left div span {
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+
+}
+.left div {
+	text-align: center;
+	font-size: 15px;
+	
+	color: white;
+	margin-top: -10px;
+}
+.papa{
+	width: 0px;
+	height: -5px;
+	margin-left: 0px;
+	padding-top: 35px;
+
+}
+p{
+	opacity: 0.7;
+	color: white;
+	padding-left: 20px;
+	padding-top: 21px;
+
+}
+button{
+	margin-left: -190px;
+}

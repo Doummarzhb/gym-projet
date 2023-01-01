@@ -1,0 +1,44 @@
+body{
+	background: linear-gradient(grey,black,grey);
+}
+li{
+	color: white;
+}
+h2{
+	color: white;
+	padding-top: 20px;
+	border: grey;
+}
+img{
+	
+	margin-left: 100px;
+}
+p{
+	color: white;
+	padding-left: 10px;
+}
+
+/*
+.left{
+left: 0px;
+top: 0px;
+}
+.left img{
+	width: 70px;
+	height: 50px;
+	margin-left: 10px;
+}
+.left div span {
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+
+}
+.left div {
+	text-align: center;
+	font-size: 15px;
+	margin-left: -1150px;
+	color: white;
+	
+}
+*/
